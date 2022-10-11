@@ -38,7 +38,7 @@ $ wget https://21robot.org/data/center-devtest.tar.gz -P /tmp
 
 $ tar -zxvf /tmp/center-devtest.tar.gz 
 
-$ mkdir data/center-2017-2015/dev && cp center-devtest/Eigo/Center-2015--Main-Eigo_hikki.xml 
+$ mkdir data/center-2017-2015/dev && cp center-devtest/Eigo/Center-2017--Main-Eigo_hikki.xml 
 
 $ rm /tmp/center-devtest.tar.gz
 
