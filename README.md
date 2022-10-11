@@ -36,9 +36,9 @@ pip install torch mxnet-cu102mkl  # Replace w/ your CUDA version; mxnet-mkl if C
 # センター試験XMLデータをダウンロード
 $ wget https://21robot.org/data/center-devtest.tar.gz -P /tmp
 
-$ tar -zxvf center-devtest.tar.gz 
+$ tar -zxvf /tmp/center-devtest.tar.gz 
 
-$ mkdir data/center-2017-2015/dev && cp /tmp/center-devtest/Eigo/Center-2015--Main-Eigo_hikki.xml data/center-2017-2015/dev/
+$ mkdir data/center-2017-2015/dev && cp center-devtest/Eigo/Center-2015--Main-Eigo_hikki.xml 
 
 $ rm /tmp/center-devtest.tar.gz
 
